@@ -17,20 +17,31 @@
 			</style>
 		</head>
 		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<img src="images/portrait.jpeg" alt="HTML5 Icon" width="400">
+			<!-- /.Test column -->
 			<div class="container">
+				<div class="row">
+					<div class="col">
+						<img src="images/portrait.jpeg" alt="HTML5 Icon" width="400">
+					</div>
+					<div class="col">
+						<!-- Menu bar -->
+						<nav>
+								<ul>
+										<li><a href="/">Home</a></li>
+										<li><a href="/about">About</a></li>
+										<li><a href="/cv">CV</a></li>
+										<li><a href="/blog">Blog</a></li>
+								</ul>
+						</nav>
+						<!-- FIN Menu bar -->
+						<div class="container">
 
-			{{ content }}
+						{{ content }}
 
-			</div><!-- /.container -->
+						</div><!-- /.container -->
+					</div>
+				</div>
+			</div>
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:joseph.brunet@emse.fr">Send Email</a></li>

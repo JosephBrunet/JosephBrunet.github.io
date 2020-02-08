@@ -240,3 +240,33 @@
     }
   }
 }
+
+.author__cv {
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 15px;
+  padding-right: 25px;
+  line-height: 1;
+
+  @include breakpoint($large) {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+   
+  a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    transition-duration: 0.2s;
+    transition-property: transform;
+
+    &:hover {
+      /*text-decoration: underline;*/
+      transform: scale(1.1);
+    }
+  }
+}

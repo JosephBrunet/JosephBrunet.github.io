@@ -229,9 +229,14 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    transition-duration: 0.3s;
+    transition-property: transform;
 
     &:hover {
       text-decoration: underline;
+      transform: scale(1.1);
     }
   }
 }

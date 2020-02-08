@@ -15,13 +15,15 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 
 2020
 ------
-Brunet, J., B. Pierrat, E. Maire, J. Adrien, and P. Badel. A combined experimental-numerical lamellar-scale approach of tensile rupture in arterial medial tissue using X-ray tomography.\
++ Brunet, J., B. Pierrat, E. Maire, J. Adrien, and P. Badel. A combined experimental-numerical lamellar-scale approach of tensile rupture in arterial medial tissue using X-ray tomography.\
 *Journal of the mechanical behavior of biomedical materials, 2019*
+
++ dovkdvsq,
 
 2019
 ------
 
-sjohfdvj
++sjohfdvj
 
 2018
 ------

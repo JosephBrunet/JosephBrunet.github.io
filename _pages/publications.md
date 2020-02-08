@@ -17,7 +17,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 ------
 + Brunet J., Pierrat B., and Badel P. Review of current advances in the mechanical description and quantification of aortic dissection mechanisms.
 *IEEE Reviews in Biomedical Engineering, 2020*<br>
-[Paper](/_publications/2019_paper.pdf)
+[Paper](/files/2019_paper.pdf)
 
 2019
 ------

@@ -30,29 +30,11 @@
 }
 
 .archive_text {
-  margin-bottom: 2em;
-
-  @include breakpoint($medium) {
-    @include span(12 of 12);
-  }
-
-  @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-  }
-
   a {
     opacity: 0.7;
-    color: inherit;
-    /*text-decoration: underline;*/
-    text-decoration: none;
 
     &:hover {
       text-decoration: underline;
-
-      img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
-      }
     }
   }
 }

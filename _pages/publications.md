@@ -24,4 +24,4 @@ author_profile: true
 *Journal of the mechanical behavior of biomedical materials, 2019.* &nbsp; <a href="/files/2020_Review.pdf" target="\_blank"><i class="fas fa-file-alt"></i></a>
 
 
-# Maud Chaton
+# Maud Chaton mignonne

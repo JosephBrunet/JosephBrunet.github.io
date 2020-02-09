@@ -6,8 +6,8 @@ author_profile: true
 ---
 
 
-<p class="myclass">This paragraph has a class "myclass"</p>
-You can also find my articles on <a href="{{author.googlescholar}}">my Google Scholar profile</a>.
+<p class="archive_text">You can also find my articles on <a href="{{author.googlescholar}}">my Google Scholar profile</a>.</p>
+
 
 {% include base_path %}
 

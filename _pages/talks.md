@@ -14,14 +14,11 @@ author_profile: true
 
 Upcoming
 ------
-+
+
 
 2019
 ------
 + October 30, Chairman of the session ”Macro-scale biofluids” and speaker A numerical design of experiment approach to understand aortic dissection onset and propagation. 44th Congress of the Société de Biomécanique, Poitiers.
-
-Chairman of the session ”Macro-scale biofluids”, 44th Congress of the Société de Biomécanique, 2019 at
-University of Poitiers, France
 
 2018
 ------

@@ -262,6 +262,7 @@
 
   @include breakpoint($large) {
     display: block;
+    background-color: lavender;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
@@ -283,6 +284,7 @@
   }
 
   @media screen and (max-width: 1000) {
+          display: none;
           background-color: lavender;
   }
 }

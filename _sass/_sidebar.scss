@@ -261,11 +261,9 @@
   line-height: 1;
 
   @include breakpoint($large) {
-    display: block;
+    display: none;
     background-color: lavender;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+
   }
 
   a {
@@ -281,10 +279,5 @@
       /*text-decoration: underline;*/
       transform: scale(1.1);
     }
-  }
-
-  @media screen and (max-width: 1000) {
-          display: none;
-          background-color: lavender;
   }
 }

@@ -14,7 +14,7 @@ author_profile: true
 
 Upcoming
 ------
-
++ July 2020, ESB, Milan
 
 2019
 ------

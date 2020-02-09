@@ -260,7 +260,7 @@
   padding-right: 25px;
   line-height: 1;
 
-  @include breakpoint($large) {
+  @include breakpoint(max-width $large) {
     display: none;
     background-color: lavender;
 

@@ -108,6 +108,12 @@
   }
 }
 
+@media only screen and (max-width: 500px) {
+    #adress {
+        display: none;
+    }
+}
+
 .author__name {
   margin: 0;
 
@@ -254,7 +260,7 @@
     padding-left: 0;
     padding-right: 0;
   }
-   
+
   a {
     display: block;
     color: inherit;

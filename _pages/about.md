@@ -26,3 +26,5 @@ Current research and research goals
 Professional and academic affiliations
 
 Links to your blog, academic social networks and institution
+
+Triangle photo longue

@@ -19,10 +19,15 @@
     {% endif %}
   </ul>
 </div>
-
-<img class="mines" src="{{ domain }}/images/mines.png">
-<img class="inserm" src="{{ domain }}/images/inserm.png">
-<img class="erc" src="{{ domain }}/images/erc.png">
-
-
+<div>
+  <a href="https://www.mines-stetienne.fr/">
+    <img class="mines" src="{{ domain }}/images/mines.png">
+  </a>
+  <a href="https://www.inserm.fr/">
+    <img class="inserm" src="{{ domain }}/images/inserm.png">
+  </a>
+  <a href="https://erc.europa.eu/">
+    <img class="erc" src="{{ domain }}/images/erc.png">
+  </a>
+</div>
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>

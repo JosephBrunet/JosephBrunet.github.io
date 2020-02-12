@@ -27,7 +27,7 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: 1em;
     max-width: 100%;
     padding: 0 1em 2em;
 
@@ -95,13 +95,18 @@
 img.mines {
   max-height: 55px;
   width: auto;
+  padding-right: 1em;
 }
 
 img.inserm {
   max-height: 55px;
   width: auto;
+  padding-right: 1em;
+
 }
 img.erc {
   max-height: 55px;
   width: auto;
+  padding-right: 1em;
+
 }

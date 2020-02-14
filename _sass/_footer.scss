@@ -27,9 +27,9 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0em;
+    margin-top: 0.5em;
     max-width: 100%;
-    padding: 0 1em 2em;
+    padding: 0 1em 0em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -93,7 +93,7 @@
 
 
 img.mines {
-  max-height: 55px;
+  max-height: 65px;
   width: auto;
   padding-right: 2em;
 }
@@ -105,7 +105,7 @@ img.inserm {
 
 }
 img.erc {
-  max-height: 55px;
+  max-height: 65px;
   width: auto;
   padding-right: 2em;
 

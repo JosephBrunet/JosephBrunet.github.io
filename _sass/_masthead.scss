@@ -53,15 +53,17 @@
   }
 }
 
-.masthead__image_home {
+.masthead__menu_home {
   display: block;
   list-style-type: none;
   white-space: nowrap;
-  max-height: 85px;
-  width: auto;
+  font-size: 34px;
   padding-right: 5em;
   padding-left: 4em;
-  a {
-    text-decoration: none;
-  }
+
+  &--lg {
+    padding-right: 2em;
+    font-weight: 700;
+
+
 }

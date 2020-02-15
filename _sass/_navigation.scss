@@ -177,6 +177,10 @@
   min-width: 250px;
   height:69px;
   background: $background-color;
+  
+  html {
+  height: 100%;
+  }
 
   a {
     display: block;
@@ -204,9 +208,7 @@
 
   .visible-links {
     display: table;
-    html {
-    height: 100%;
-    }
+
     li {
       display: table-cell;
       vertical-align: middle;

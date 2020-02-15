@@ -15,8 +15,7 @@
           <!--
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
           -->
-        </ul>
-        <ul class="visible-links">
+          <div align="right">
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
@@ -25,6 +24,7 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          </div>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

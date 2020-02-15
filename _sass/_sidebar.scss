@@ -251,7 +251,7 @@
     text-decoration: none;
     transform: translateZ(0);
     backface-visibility: hidden;
-    transition-duration: 0.2s;
+    transition-duration: 0.1s;
     transition-property: transform;
 
     &:hover {
@@ -286,7 +286,7 @@
     text-decoration: underline;
     transform: translateZ(0);
     backface-visibility: hidden;
-    transition-duration: 0.2s;
+    transition-duration: 0.1s;
     transition-property: transform;
 
     &:hover {

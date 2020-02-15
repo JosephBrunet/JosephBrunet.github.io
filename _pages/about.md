@@ -8,7 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Joseph
+Hi, my name is Joseph Brunet. I'm currently a PhD student in biomechanics at École des Mines de Saint-Étienne. 
+
+
+
 
 
 Profile and expertise

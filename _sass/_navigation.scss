@@ -212,7 +212,9 @@
     height: 100%;
     vertical-align: middle;
     li {
+      display: table-cell;
       vertical-align: middle;
+      height: 100%;
     }
 
     a {

@@ -5,7 +5,7 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
-        <ul class="visible-links">
+        <div class="visible-links">
             <li><span style="display:block; width: 3em;"></span></li>
             <a href="{{ base_path }}/">
                <!--<img alt="vitriuve" class="masthead__image_home" src="{{ domain }}/images/vitruve.png">-->
@@ -25,7 +25,7 @@
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
           </div>
-        </ul>
+        </div>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>

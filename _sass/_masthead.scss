@@ -3,6 +3,7 @@
    ========================================================================== */
 
 .masthead {
+  color: #df6124;
   position: relative;
   /*border-bottom: 1px solid $border-color;*/
   -webkit-animation: intro 0.3s both;
@@ -63,6 +64,7 @@
 
 .masthead__menu_home {
   display: block;
+  color: #df6124;
   list-style-type: none;
   white-space: nowrap;
   font-size: 34px;

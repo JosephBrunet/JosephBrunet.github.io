@@ -13,7 +13,6 @@
             <li><span style="display:block; width: 3em;"></span></li>
             <a href="{{ base_path }}/"><li class="masthead__menu_home">J.</li></a>
           -->
-          <div>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
@@ -22,7 +21,6 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
-          </div>
         </div>
         <div class="hidden-links hidden"></div>
       </nav>

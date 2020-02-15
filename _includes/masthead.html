@@ -15,7 +15,9 @@
           <!--
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
           -->
-          <div style="float: right;">
+        </div>
+        <div class="visible-links" style="float: right;">
+          <div>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}

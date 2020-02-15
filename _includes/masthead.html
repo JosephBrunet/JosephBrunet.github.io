@@ -21,7 +21,7 @@
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <div align="right"><li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li></div>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>

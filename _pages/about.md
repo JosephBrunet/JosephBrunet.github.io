@@ -20,9 +20,3 @@ Profile and expertise
 
 Current research and research goals
 ------
-
-
-
-
-
-Triangle photo longue

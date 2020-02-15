@@ -202,17 +202,8 @@
   }
 
   .visible-links {
-    display: table;
-
-    li {
-      display: table-cell;
-      vertical-align: middle;
-
-      &:first-child {
-        font-weight: bold;
-      }
-    }
-
+    display:inline-block;
+    font-weight: bold;
   }
 
   .hidden-links {

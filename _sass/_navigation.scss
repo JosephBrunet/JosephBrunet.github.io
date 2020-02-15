@@ -203,7 +203,9 @@
 
   .visible-links {
     display: table;
-
+    html {
+    height: 100%;
+    }
     li {
       display: table-cell;
       vertical-align: middle;

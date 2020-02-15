@@ -46,6 +46,8 @@
   list-style-type: none;
   white-space: nowrap;
   font-size: 14px;
+  margin-left:auto;
+  margin-right:0;
 
   &--lg {
     padding-right: 2em;
@@ -64,8 +66,6 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-  margin-left:auto;
-  margin-right:0;
   font-size: 34px;
   font-family: "Lemonada";
 

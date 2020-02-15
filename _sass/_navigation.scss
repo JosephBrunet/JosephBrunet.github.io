@@ -207,8 +207,8 @@
   }
 
   .visible-links {
-    display: table-cell;
-    float: right;
+    display: table;
+    text-align: right; 
     height: 100%;
     vertical-align: middle;
     li {

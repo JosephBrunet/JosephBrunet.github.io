@@ -9,7 +9,9 @@
             <a href="{{ base_path }}/">
                <img alt="vitriuve" class="masthead__image_home" src="{{ domain }}/images/vitruve.png">
             </a>
+          <!--
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          -->
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}

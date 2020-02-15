@@ -17,6 +17,7 @@
     /*padding: 1em 1em 1em;*/
     font-family: $sans-serif-narrow;
     font-weight: bold;
+    color: #100c08;
 
     @include breakpoint($x-large) {
       max-width: $x-large;

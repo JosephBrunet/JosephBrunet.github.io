@@ -215,6 +215,7 @@
     @include breakpoint(max-width 1000px) {
       float: none;
       display:block
+      padding-right:15em
     }
 
     li {

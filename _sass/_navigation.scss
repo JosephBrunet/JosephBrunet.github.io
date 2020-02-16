@@ -213,11 +213,7 @@
     height: 100%;
     vertical-align: middle;
     @include breakpoint(max-width 600px) {
-      float: none;
-      list-style: none;
-      white-space: nowrap;
-      overflow-x: auto;
-      overflow-y: hidden;
+
     }
 
     li {

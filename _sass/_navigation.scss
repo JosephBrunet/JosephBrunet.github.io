@@ -212,7 +212,7 @@
     float: right;
     height: 100%;
     vertical-align: middle;
-    @include breakpoint(max-width $large) {
+    @include breakpoint(max-width 500px) {
       width: 100%;
     }
 

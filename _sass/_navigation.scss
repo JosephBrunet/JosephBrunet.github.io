@@ -214,10 +214,7 @@
     vertical-align: middle;
     @include breakpoint(max-width 600px) {
       float: none;
-      display:block;
-    }
-    @include breakpoint(mim-width 600px) {
-      float: right;
+      display:none;
     }
 
     li {

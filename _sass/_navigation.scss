@@ -83,7 +83,7 @@
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
-      color: #fff;
+      color: mix(#fff, $gray, 25%);
       border: 1px solid $light-gray;
       border-radius: 0;
 
@@ -131,7 +131,7 @@
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: #fff;
+    color: mix(#fff, $gray, 50%);
     border: 1px solid $light-gray;
     border-radius: $border-radius;
 
@@ -174,13 +174,8 @@
 
 .greedy-nav {
   position: relative;
-  min-width: 350px;
-  height:69px;
+  min-width: 250px;
   background: $background-color;
-
-  html {
-  height: 100%;
-  }
 
   a {
     display: block;
@@ -189,14 +184,14 @@
     color: $masthead-link-color;
     text-decoration: none;
 
-    /*&:hover {
+    &:hover {
       color: $masthead-link-color-hover;
-    }*/
+    }
   }
 
   button {
     position: absolute;
-    height: 50%;
+    height: 100%;
     right: 0;
     padding: 0 0.5rem;
     border: 0;
@@ -206,20 +201,26 @@
     cursor: pointer;
   }
 
-
   .visible-links {
     display: table;
-    float: right;
-    height: 100%;
-    vertical-align: middle;
-    @include breakpoint(max-width 600px) {
-      float:none;
-      display: table;
-    }
 
     li {
       display: table-cell;
       vertical-align: middle;
+
+      &:first-child {
+        font-weight: bold;
+
+        a {
+          margin-left: 0;
+        }
+      }
+
+      &:last-child {
+        a {
+          margin-right: 0;
+        }
+      }
     }
 
     a {
@@ -249,7 +250,6 @@
   }
 
   .hidden-links {
-    display: table;
     position: absolute;
     top: 100%;
     right: 0;
@@ -325,9 +325,9 @@
     padding: 0.125em 0;
     color: inherit;
 
-    /*&:hover {
+    &:hover {
       text-decoration: underline;
-    }*/
+    }
   }
 
   .active {
@@ -362,4 +362,71 @@
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
+}
+
+
+/*
+   Table of contents navigation
+   ========================================================================== */
+
+.toc {
+  font-family: $sans-serif-narrow;
+  color: $gray;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #fff;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+
+  .nav__title {
+    color: #fff;
+    font-size: $type-size-6;
+    background: $primary-color;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+  }
+}
+
+.toc__menu {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  font-size: 0.8rem;
+
+  a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: $gray;
+    font-size: $type-size-7;
+    font-weight: bold;
+    line-height: 1.5;
+    border-bottom: 1px solid $border-color;
+
+    &:hover {
+      color: #000;
+      background: $lighter-gray;
+    }
+  }
+
+  > li:last-child {
+    a {
+      border-bottom: none;
+    }
+  }
+
+  li ul > li a {
+    padding-left: 2rem;
+    font-weight: normal;
+  }
+
+  /* hide sub sub links on small screens*/
+  li > ul li {
+    display: none;
+
+    @include breakpoint($medium) {
+      display: block;
+    }
+  }
 }

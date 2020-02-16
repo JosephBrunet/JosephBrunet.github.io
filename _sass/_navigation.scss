@@ -213,7 +213,8 @@
     height: 100%;
     vertical-align: middle;
     @include breakpoint(max-width 1000px) {
-      float: left;
+      float: none;
+      display:block
     }
 
     li {

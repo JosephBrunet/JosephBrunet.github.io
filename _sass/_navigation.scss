@@ -212,9 +212,12 @@
     float: right;
     height: 100%;
     vertical-align: middle;
-    @include breakpoint(max-width 1000px) {
+    @include breakpoint(max-width 600px) {
       float: none;
       display:block;
+    }
+    @include breakpoint(mim-width 600px) {
+      float: right;
     }
 
     li {

@@ -51,12 +51,12 @@
   font-size: 14px;
   height: 69px;
 
-  @include breakpoint(max-width 1000px) {
+  @include breakpoint(max-width 600px) {
     width: 100em;
     padding-left: 100em;
     padding-right:100em;
   }
-  @include breakpoint(min-width 1000px) {
+  @include breakpoint(min-width 600px) {
     width: auto;
     padding-left: 0em;
     padding-right:0em;

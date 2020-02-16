@@ -206,15 +206,13 @@
     cursor: pointer;
   }
 
+
   .visible-links {
     display: table;
     float: right;
     height: 100%;
     vertical-align: middle;
 
-    @include breakpoint(max-width $large) {
-      display: none;
-    }
     li {
       display: table-cell;
       vertical-align: middle;
@@ -224,6 +222,10 @@
       position: relative;
 
 
+    }
+
+    @include breakpoint(max-width $large) {
+      display: none;
     }
   }
 

@@ -60,7 +60,7 @@ $code-background-color-dark : $light-gray;
 $text-color                 : #222;
 $border-color               : $lighter-gray;
 
-$primary-color              : #7a8288;
+$primary-color              : #222;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
@@ -148,6 +148,6 @@ $susy: (
 
 $border-radius              : 4px;
 $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$navicon-width              : 40px;
+$navicon-width              : 30px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;

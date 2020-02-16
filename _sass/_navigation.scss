@@ -177,7 +177,9 @@
   min-width: 250px;
   height:69px;
   background: $background-color;
-
+  @include breakpoint(max-width $large) {
+    display: none;
+  }
   html {
   height: 100%;
   }
@@ -215,9 +217,6 @@
 
     li {
       display: table-cell;
-      @include breakpoint(max-width $large) {
-        display: none;
-      }
       vertical-align: middle;
     }
 
@@ -225,10 +224,6 @@
       position: relative;
 
 
-    }
-
-    @include breakpoint(max-width $large) {
-      display: none;
     }
   }
 

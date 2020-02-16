@@ -58,8 +58,7 @@
     list-style-type: none;
   }
 
-  @include breakpoint(max-width 800px) {
-    padding-right: 200px;
+  @include breakpoint(max-width 600px) {
   }
   &--lg {
     padding-right: 2em;

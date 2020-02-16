@@ -215,6 +215,9 @@
 
     li {
       display: table-cell;
+      @include breakpoint(max-width $large) {
+        display: none;
+      }
       vertical-align: middle;
     }
 

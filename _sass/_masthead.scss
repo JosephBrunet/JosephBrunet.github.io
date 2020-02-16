@@ -52,7 +52,7 @@
   height: 69px;
 
   @include breakpoint(max-width 600px) {
-    
+    padding-right:100em;
   }
   &--lg {
     padding-right: 2em;

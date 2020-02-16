@@ -212,6 +212,9 @@
     float: right;
     height: 100%;
     vertical-align: middle;
+    @include breakpoint(max-width $large) {
+      width: 100%;
+    }
 
     li {
       display: table-cell;

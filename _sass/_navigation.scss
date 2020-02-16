@@ -204,6 +204,9 @@
   .visible-links {
     display: table;
     float: right;
+    @include breakpoint(max-width 600px) {
+      float: none;
+    }
 
     li {
       display: table-cell;

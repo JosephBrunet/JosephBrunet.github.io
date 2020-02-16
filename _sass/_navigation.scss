@@ -176,7 +176,7 @@
   position: relative;
   min-width: 250px;
   height:69px;
-  max-height: 69px
+  max-height: 69px;
   background: $background-color;
 
   html {
@@ -213,6 +213,7 @@
     float: right;
     height: 100%;
     vertical-align: middle;
+    max-height: 69px;
     @include breakpoint(max-width 1000px) {
     }
 

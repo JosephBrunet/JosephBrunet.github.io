@@ -56,6 +56,11 @@
     padding-left: 100em;
     padding-right:100em;
   }
+  @include breakpoint(min-width 1000px) {
+    width: auto;
+    padding-left: 0em;
+    padding-right:0em;
+  }
   &--lg {
     padding-right: 2em;
     font-weight: 700;

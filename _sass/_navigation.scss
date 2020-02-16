@@ -178,7 +178,7 @@
   height:69px;
   background: $background-color;
   @include breakpoint(max-width $large) {
-    display: none;
+    display: table;
   }
   html {
   height: 100%;

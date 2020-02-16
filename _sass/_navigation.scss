@@ -214,7 +214,6 @@
     vertical-align: middle;
     @include breakpoint(max-width 600px) {
       float: none;
-      display:inline-block;
       list-style: none;
       white-space: nowrap;
       overflow-x: auto;

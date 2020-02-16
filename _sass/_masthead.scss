@@ -33,6 +33,7 @@
 }
 
 .masthead__menu {
+  max-height: 69px;
   ul {
     margin: 0;
     padding: 0;
@@ -50,7 +51,7 @@
   white-space: nowrap;
   font-size: 14px;
   height: 69px;
-  
+
 
   &--lg {
     padding-right: 2em;

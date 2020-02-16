@@ -174,12 +174,10 @@
 
 .greedy-nav {
   position: relative;
-  min-width: 250px;
+  min-width: 400px;
   height:69px;
   background: $background-color;
-  @include breakpoint(max-width $large) {
-    display: table;
-  }
+
   html {
   height: 100%;
   }

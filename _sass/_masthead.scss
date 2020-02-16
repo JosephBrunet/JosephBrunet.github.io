@@ -51,8 +51,9 @@
   font-size: 14px;
   height: 69px;
 
+
   @include breakpoint(max-width 600px) {
-    padding-right:100em;
+    width: 100%;
   }
   &--lg {
     padding-right: 2em;

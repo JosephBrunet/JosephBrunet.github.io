@@ -214,7 +214,7 @@
     vertical-align: middle;
     @include breakpoint(max-width 600px) {
       float: none;
-      display:none;
+      display:block;
     }
 
     li {
@@ -232,6 +232,7 @@
   .hidden-links {
     display: table;
     position: absolute;
+    width: auto;
     top: 100%;
     right: 0;
     margin-top: 15px;

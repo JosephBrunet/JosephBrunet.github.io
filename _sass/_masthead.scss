@@ -57,7 +57,7 @@
     clear: both;
     list-style-type: none;
   }
-}
+
   @include breakpoint(max-width 600px) {
   }
   &--lg {

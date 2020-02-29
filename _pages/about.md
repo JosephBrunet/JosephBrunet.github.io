@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-# Hi, I'm Joseph Brunet,  
+# Hi, I'm Joseph Brunet,
 ## a PhD student in biomechanics at École des Mines de Saint-Étienne.  
 
 <p class="archive_text">

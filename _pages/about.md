@@ -8,13 +8,23 @@ redirect_from:
   - /about.html
 ---
 
-<p class="archive_text">Hi, my name is Joseph Brunet. <br>
-I'm currently a PhD student in biomechanics at École des Mines de Saint-Étienne working on the
-<a href="https://www.emse.fr/~badel/Pierre_Badel___Soft_tissue_biomechanics/AArteMIS.html" target="\_blank">AArteMIS project</a>. I work on obtaining and analyzing data from in situ mechanical testing of arteries in an X-ray micro-tomography environment. In particular, I investigate the mechanisms of medial dissection.</p>
+#Hi, I'm Joseph Brunet, <br>
+##a PhD student in biomechanics at École des Mines de Saint-Étienne. <br>
+
+<p class="archive_text">
+I'm part of the <a href="https://www.emse.fr/~badel/Pierre_Badel___Soft_tissue_biomechanics/AArteMIS.html" target="\_blank">AArteMIS project</a>. My work consits of obtaining and analyzing data from in situ mechanical testing of arteries in an X-ray micro-tomography environment. In particular, I investigate the mechanisms of aortic dissection.
+</p>
+
+
 
 <!--
 
-About me
+I'm currently a PhD student in biomechanics at École des Mines de Saint-Étienne working on the
+<a href="https://www.emse.fr/~badel/Pierre_Badel___Soft_tissue_biomechanics/AArteMIS.html" target="\_blank">AArteMIS project</a>. My work consits of obtaining and analyzing data from in situ mechanical testing of arteries in an X-ray micro-tomography environment. In particular, I investigate the mechanisms of medial dissection.</p>
+
+
+I'm a curious mind, always searching for new experiences and problems to solve.
+
 Few word (mountain / curious mind / ...)
 
 Current situation

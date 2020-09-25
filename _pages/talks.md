@@ -13,7 +13,7 @@ author_profile: true
 
 Upcoming
 ------
-+ July 2020, ESB, Milan
++ October 30, Investigation of notch propagation in an in-vitro dissection model using X-ray microtomography. 45th Congress of the Société de Biomécanique, Online.
 
 2019
 ------

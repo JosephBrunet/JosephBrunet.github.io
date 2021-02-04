@@ -1,27 +1,29 @@
-{% include base_path %}
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="utf-8">
 
-{% include seo.html %}
+  <title>{{ page.title }}</title>
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+	<link rel="stylesheet" href="/assets/css/styles.css">
 
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{% seo %}
 
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/assets/images/favicon/site.webmanifest">
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+	<script src="https://kit.fontawesome.com/ab5d749db7.js" crossorigin="anonymous"></script>
 
-<!-- Favicon head tag -->
-<link rel="shortcut icon" href="{{ domain }}/images/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css?family=Lato|Sriracha&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
-<!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
-<meta http-equiv="cleartype" content="on">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="/assets/js/my.js"></script>
+</head>

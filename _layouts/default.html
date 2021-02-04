@@ -1,26 +1,18 @@
+<!DOCTYPE html>
+<html>
 
-{% include base_path %}
+  {%- include head.html -%}
 
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-  </head>
 
   <body>
 
-    {% include masthead.html %}
-    <p style="text-align:center;margin: 0px;padding: 0px;"><img src="{{ domain }}/images/landscape.png" alt="Landscape"></p>
+    {%- include header.html -%}
+    <main class="main-content">
+      {{ content }}
+    </main>
 
-    {{ content }}
+    {%- include footer.html -%}
 
-    <div class="page__footer">
-      <footer>
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
 
   </body>
 </html>

@@ -1,43 +1,19 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+include:
+ - _pages
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Joseph Brunet"
 title_separator          : "-"
-name                     : &name "Joseph Brunet"
-description              : &description "PhD student at Ecole des Mines de Saint-Etienne"
-url                      : https://josephbrunet.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Joseph Brunet"
+description              : "PhD student at Ecole des Mines de Saint-Etienne"
+url                      : https://josephbrunet.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "josephbrunet.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-
-
-
-# Social Sharing
-twitter:
-  username               : &twitter
-
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-
-
-# Analytics
-analytics:
-  provider               :  "custom" #"google-universal" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
 
 
 # Site Author
@@ -46,152 +22,13 @@ author:
   avatar           : "profile.png"
   bio              : "PhD student at Ecole des Mines de Saint-Etienne, interested in vascular biomechanics"
   location         : "Saint-Etienne, France"
-  employer         :
+  employer         : Ecole des Mines de Saint-Etienne
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=7T_yo4UAAAAJ&hl=en&oi=sra"
-  email            : "joseph.brunet@emse.fr"
+  email            : "joseph.brune@emse.fr"
   researchgate     : "https://www.researchgate.net/profile/Joseph_Brunet"
-  github           : #"josephbrunet"
+  github           : #"https://github.com/JosephBrunet"
   instagram        :
   linkedin         : "https://www.linkedin.com/in/joseph-brunet-b86b3b153"
-  orcid            : #"http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-8424-9510"
   twitter          : #"replacethistwitterhandle"
-
-
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-  - files
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
-  - gulpfile.js
-  - log
-  - node_modules
-  - package.json
-  - tmp
-  - vendor
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-
-# Defaults
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: single
-      author_profile: true
-      share: true
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-
-
-# Outputting
-permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/

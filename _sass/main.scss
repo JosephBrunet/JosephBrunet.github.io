@@ -1,0 +1,52 @@
+
+html, body {
+		overflow: auto;
+		scroll-behavior: smooth;
+}
+
+body {
+	background: #fff;
+  color: #333;
+	font-family: 'Merriweather',Arial, Helvetica, sans-serif;
+	font-size: 16px;
+  font-weight: 400;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-rendering: optimizeLegibility;
+	position: relative;
+}
+
+.main-content {
+	max-width: 1100px;
+	padding: 1.5rem 2.5rem 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6rem;
+	box-sizing: content-box;
+}
+
+
+
+
+h1 {
+  margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	line-height: 1.875;
+	font-weight: 400;
+	color: #333;
+	margin-bottom: 0;
+	font-size: 1rem;
+}
+p a {
+	color: #252525;
+	text-decoration: underline;
+}
+p a:hover {
+	color: #898989;
+}

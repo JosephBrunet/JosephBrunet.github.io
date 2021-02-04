@@ -1,0 +1,59 @@
+
+#cv a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#cv a:hover {
+	color: #6b8387;
+}
+
+
+#cv {
+	//max-width: 66%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+#cv h1 {
+	margin: 0 0 1.125rem 0;
+	padding: 0;
+	line-height: 1.26;
+	font-size: 3.24732rem;
+
+}
+
+#cv .archive_text {
+	color: #6b8387;
+}
+
+#cv .archive_text a {
+	text-decoration: underline;
+}
+
+#cv .archive_text a:hover {
+	color: #333;
+}
+#cv section {
+	margin-bottom: 3rem;
+	border-top: 1px solid #d4dfe2;
+	padding-top: 3rem;
+}
+
+
+#cv h4 {
+	margin: 0;
+	margin-top: 1.42383rem;
+	padding: 0;
+	line-height: 1.26;
+	font-size: 1.5rem;
+}
+
+#cv li {
+	padding: 0.7rem 0;
+}
+
+.publi-content {
+	margin-top: 1.125rem;
+
+}

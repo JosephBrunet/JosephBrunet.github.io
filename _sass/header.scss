@@ -1,0 +1,249 @@
+
+
+#header {
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #d4dfe2;
+	height: 64px;
+	font-weight: 400;
+	position: fixed; /* Fixed position - sit on top of the page */
+	width: 100%;
+  transition: all 0.2s;
+	overflow: visible;
+	z-index: 100; /* Sit on top */
+}
+
+
+#header-content {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1300px;
+	padding: 0 2.5rem;
+	box-sizing: content-box;
+	flex-grow: 1;
+	height: 43px
+}
+
+#header #header_left-content {
+	height: 100%;
+}
+
+
+
+
+#header a.logo {
+	background-color: transparent;
+	text-decoration: none;
+
+}
+
+#header #logo {
+	position: relative;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	height: 100%;
+	background-color: #f7d05a;
+	color: #333;
+	font-family: roboto, Gadget, sans-serif;
+	padding: 0 1rem;
+	//height: 43px;
+	font-size: 1.6rem;
+	transition: all 0.5s;
+}
+
+#header .logo:hover {
+	background-color: #898989;
+}
+
+
+
+
+
+
+
+
+#logo-text {
+	position: relative;
+	height: 100%;
+	font-family: 'Shadows Into Light', 'Lobster', cursive;
+	font-size: 2.5rem;
+	text-align: center;
+	display: flex;
+	align-items: center;
+
+}
+
+
+#gear_box {
+	height: 100%;
+	width: 46px;
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+
+}
+
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(180deg);
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+    }
+}
+@-moz-keyframes rotate {
+    from {
+      -moz-transform: rotate(180deg);
+    }
+    to {
+        -moz-transform: rotate(0deg);
+    }
+}
+@-webkit-keyframes rotate-inv {
+    from {
+        -webkit-transform: rotate(180deg);
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+    }
+}
+@-moz-keyframes rotate-inv {
+    from {
+      -moz-transform: rotate(180deg);
+    }
+    to {
+        -moz-transform: rotate(0deg);
+    }
+}
+
+#logo-img1 {
+	height: 60%;
+}
+
+
+#logo:hover #logo-img1 {
+  -webkit-animation-name:            rotate;
+  -webkit-animation-duration:        4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  -moz-animation-name:            rotate;
+  -moz-animation-duration:        4s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+}
+
+
+
+#logo-img2 {
+	height: 45%;
+	position: absolute;
+	bottom: 4px;
+	right:17px;
+}
+
+#logo:hover #logo-img2 {
+  -webkit-animation-name:            rotate-inv;
+  -webkit-animation-duration:        4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  -moz-animation-name:            rotate-inv;
+  -moz-animation-duration:        4s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+}
+
+
+#logo-img3 {
+	height: 35%;
+	position: absolute;
+	bottom: 25px;
+	right:23px;
+}
+
+#logo:hover #logo-img3 {
+  -webkit-animation-name:            rotate-inv;
+  -webkit-animation-duration:        4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  -moz-animation-name:            rotate-inv;
+  -moz-animation-duration:        4s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+}
+
+
+
+
+
+
+
+
+
+#header .nav-icons{
+	text-decoration: none;
+}
+
+#header .active{
+	font-weight: 700;
+	text-decoration:none;
+}
+
+#header nav {
+	margin-left: auto;
+	font-weight: 500;
+}
+#header ul {
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+}
+#header ul li {
+	list-style: none;
+	margin-left: 1.5rem;
+}
+#header ul li a {
+	color: #333;
+	font-family: 'Saira Semi Condensed', serif, roboto, Gadget, sans-serif;
+	//letter-spacing: 0.2rem;
+	font-size: 0.9rem;
+}
+#header ul li a:hover {  //a:not(.active):hover
+	color: #0ba39c;
+}
+
+
+
+
+
+
+@media only screen and (max-device-width: 1000px) {
+    nav {
+			display: none;
+		}
+}
+
+
+
+
+
+
+
+@media only screen and (max-device-width: 480px) {
+    /* write smartphone styles here */
+}
+
+@media only screen and (max-device-width: 768px) {
+    /* tablets in portrait mode */
+}
+
+@media only screen and (max-device-width: 1024px) {
+    /* tablets in landscape mode and smaller/older monitors */
+}

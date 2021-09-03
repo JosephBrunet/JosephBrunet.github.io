@@ -30,8 +30,8 @@ $(document).ready(function(){
       document.getElementById("header_left-content").style.height = "30px";
       document.getElementById("logo").style.cssText = "padding-left: 13rem; margin-left: -12rem;";
       document.getElementById("logo-text").style.fontSize = "1.75rem";
-      document.getElementById("logo-img2").style.cssText = "height: 45%; position: absolute; bottom: 2px; right:31px;";
-      document.getElementById("logo-img3").style.cssText = "height: 35%; position: absolute; bottom: 17px; right:34px;";
+      //document.getElementById("logo-img2").style.cssText = "height: 45%; position: absolute; bottom: 2px; right:31px;";
+      //document.getElementById("logo-img3").style.cssText = "height: 35%; position: absolute; bottom: 17px; right:34px;";
     } else {
       document.getElementById("header").style.height = "64px";
       document.getElementById("header-content").style.cssText = "align-items: flex-end; padding: 0 2.5rem; height: 43px; margin:0 auto";
@@ -41,8 +41,8 @@ $(document).ready(function(){
       if ($(document).width() > 850) {
         document.getElementById("logo-text").style.fontSize = "2.5rem";
       }
-      document.getElementById("logo-img2").style.cssText = "height: 45%; position: absolute; bottom: 4px; right:17px;";
-      document.getElementById("logo-img3").style.cssText = "height: 35%; position: absolute; bottom: 25px; right:23px;";
+      //document.getElementById("logo-img2").style.cssText = "height: 45%; position: absolute; bottom: 4px; right:17px;";
+      //document.getElementById("logo-img3").style.cssText = "height: 35%; position: absolute; bottom: 25px; right:23px;";
 
     }
   }

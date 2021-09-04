@@ -115,6 +115,9 @@ $(document).ready(function(){
 
     document.getElementById("location_icon").className = "fas fa-map-marker-alt";
     document.getElementById("research_icon").className = "fa fa-flask fa-fw";
+    document.getElementById('book_icon').src="assets/images/icons/book-1.png"
+    document.getElementById("gear1").style.display = "none";
+    document.getElementById("gear2").style.display = "none";
 
   }
   //------------------------------------------
@@ -141,8 +144,11 @@ $(document).ready(function(){
       }
 
       if (wS > (hTp-wH/4) && wS < (hTc-wH/4)){
-        //console.log("publi");
-        changeNavClass("nav-publication");
+        //console.log("publication")
+        if (document.getElementById("book_icon").src.includes("book-gif")!=true){
+          changeNavClass("nav-publication");
+          document.getElementById('book_icon').src="assets/images/icons/book-gif.gif"
+        }
       }
 
       if (wS > (hTc-wH/4) && wS < (hTt-wH/2)){
@@ -154,7 +160,8 @@ $(document).ready(function(){
       if (wS > hTt-wH/1.5){
         //console.log("teach");
         changeNavClass("nav-teaching");
-      }
+        document.getElementById("gear1").style.display = "block";
+        document.getElementById("gear2").style.display = "block";      }
   });
 
 

@@ -52,22 +52,8 @@ p a:hover {
 }
 
 
-.bounce {
-	animation-duration: 1.5s;
-	animation-iteration-count: infinite;
-	transform-origin: bottom;
-	animation-name: bounce;
-	animation-timing-function: ease;
-	}
-	@keyframes bounce {
-		0%   { transform: scale(1,1)      translateY(0); }
-		10%  { transform: scale(1.1,.9)   translateY(0); }
-		30%  { transform: scale(.9,1.1)   translateY(-30px); }
-		50%  { transform: scale(1.05,.95) translateY(0); }
-		57%  { transform: scale(1,1)      translateY(-7px); }
-		64%  { transform: scale(1,1)      translateY(0); }
-		100% { transform: scale(1,1)      translateY(0); }
-	}
+//-------------------------------------------------------------
+// Research
 
 #research_icon {
 	position: relative;
@@ -165,4 +151,61 @@ p a:hover {
 		margin-left: 0px;
 		margin-right: 0px;
 	}
+}
+
+//-------------------------------------------------------------
+//Publication
+
+
+#publication h1 img {
+    height: 1em;
+    width: auto;
+}
+
+
+
+
+//-------------------------------------------------------------
+//Location
+
+
+.bounce {
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	transform-origin: bottom;
+	animation-name: bounce;
+	animation-timing-function: ease;
+	}
+	@keyframes bounce {
+		0%   { transform: scale(1,1)      translateY(0); }
+		10%  { transform: scale(1.1,.9)   translateY(0); }
+		30%  { transform: scale(.9,1.1)   translateY(-30px); }
+		50%  { transform: scale(1.05,.95) translateY(0); }
+		57%  { transform: scale(1,1)      translateY(-7px); }
+		64%  { transform: scale(1,1)      translateY(0); }
+		100% { transform: scale(1,1)      translateY(0); }
+	}
+
+
+
+	//-------------------------------------------------------------
+	//Teaching
+
+
+.teaching_icon {
+	position: relative;
+}
+
+.teaching_icon i:nth-child(1) {
+	position: absolute;
+	bottom: 45px;
+	left: 45px;
+	font-size: 0.3em;
+}
+
+.teaching_icon i:nth-child(2) {
+	position: absolute;
+	bottom: 35px;
+	left: 60px;
+	font-size: 0.5em;
 }

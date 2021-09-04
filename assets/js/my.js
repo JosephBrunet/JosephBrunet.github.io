@@ -28,7 +28,7 @@ $(document).ready(function(){
       document.getElementById("header").style.height = "30px";
       document.getElementById("header-content").style.cssText = 'align-items: center;  height: 30px';//padding: 0;// margin:0';
       document.getElementById("header_left-content").style.height = "30px";
-      document.getElementById("logo").style.cssText = "padding-left: 40rem; margin-left: -38rem;";
+      document.getElementById("logo").style.cssText = "padding-left: 40rem; margin-left: -39rem;";
       document.getElementById("logo-text").style.fontSize = "1.75rem";
       //document.getElementById("logo-img2").style.cssText = "height: 45%; position: absolute; bottom: 2px; right:31px;";
       //document.getElementById("logo-img3").style.cssText = "height: 35%; position: absolute; bottom: 17px; right:34px;";

@@ -39,7 +39,7 @@ $(document).ready(function(){
       document.getElementById("logo").style.padding = "0 1rem";
       document.getElementById("logo").style.cssText = "padding: 0 1rem; margin-left: 0rem;";
       if ($(document).width() > 850) {
-        document.getElementById("logo-text").style.fontSize = "2.5rem";
+        document.getElementById("logo-text").style.fontSize = "2rem";
       }
       //document.getElementById("logo-img2").style.cssText = "height: 45%; position: absolute; bottom: 4px; right:17px;";
       //document.getElementById("logo-img3").style.cssText = "height: 35%; position: absolute; bottom: 25px; right:23px;";

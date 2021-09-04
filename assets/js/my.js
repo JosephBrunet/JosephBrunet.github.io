@@ -48,7 +48,7 @@ $(document).ready(function(){
   }
 
 
-
+  //--------------------------------------------------------
   // Get the modal
   var modal = document.getElementById("modal-root");
 
@@ -87,6 +87,8 @@ $(document).ready(function(){
       e.stopImmediatePropagation();
   }, false);
 
+//--------------------------------------------------------
+
 
 
   //------------------------------------------
@@ -110,8 +112,11 @@ $(document).ready(function(){
     document.getElementById("nav-teaching").className = "nav-icons";
 
     document.getElementById(nav_element).className += " active";
-  }
 
+    document.getElementById("location_icon").className = "fas fa-map-marker-alt";
+    document.getElementById("research_icon").className = "fa fa-flask fa-fw";
+
+  }
   //------------------------------------------
   // FONCTION TO KNOW WHERE THE SCROLL BAR IS
 
@@ -132,6 +137,7 @@ $(document).ready(function(){
       if (wS > (hTr-wH/4) && wS < (hTp-wH/4)){
         //console.log("research");
         changeNavClass("nav-research");
+        document.getElementById("research_icon").className = "fa fa-flask fa-fw anim_bubble";
       }
 
       if (wS > (hTp-wH/4) && wS < (hTc-wH/4)){
@@ -142,6 +148,7 @@ $(document).ready(function(){
       if (wS > (hTc-wH/4) && wS < (hTt-wH/2)){
         //console.log("conf");
         changeNavClass("nav-conference");
+        document.getElementById("location_icon").className = "fas fa-map-marker-alt bounce";
       }
 
       if (wS > hTt-wH/1.5){

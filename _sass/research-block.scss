@@ -1,0 +1,47 @@
+
+.research-block-content {
+	max-width: 856px;
+	padding: 1.5rem 2.5rem 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6rem;
+	box-sizing: content-box;
+	position: relative;
+}
+
+
+#research_post_content {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#research_post_content section {
+	border-top: 0px;
+}
+
+#research_post_content h1 {
+	//background-color: yellow;
+}
+
+
+#research_post_content h3 {
+	margin-top: 1.125rem;
+}
+
+#research_post_content section div {
+  text-align: center;
+	display: block;
+	margin: 30px auto;
+	max-width: 500px;
+	position: relative;
+	//left: -50px;
+	//background: pink;
+
+}
+
+
+#research_post_content img {
+	margin-bottom: 10px;
+	max-width: 100%;
+
+}

@@ -1,25 +1,34 @@
-// $(document).on(function(){
-//    $("#navigation").click(function () {
-//        alert("hi");
-//        $("a.nav-icons").removeClass("nav-icons_active");
-//        $(this).toggleClass("nav-icons_active",true);
-//    });
-// });
+
+//------------------------------------------
+// FONCTION TO SCROLL TO TOP IF CLICK ON "ABOUT"
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+
+
+
 
 $(document).ready(function(){
+
+
 
   //Fonction test quand appuis sur entré
   document.body.onkeyup = function(e){
     if(e.key === 'Enter' || e.keyCode === 13){
         //alert("Space pressed!");
         console.log('hello world');
-        console.log("pause");
+        window.location.href = "/";
     }
   }
 
 
-  //var w = window.innerWidth;
-  //var header_width = document.getElementById("header-content").offsetWidth;
+
+
+
 
   // When the user scrolls down 50px from the top of the document, resize the header
   window.onscroll = function() {scrollFunction()};
@@ -91,14 +100,7 @@ $(document).ready(function(){
 
 
 
-  //------------------------------------------
-  // FONCTION TO SCROLL TO TOP IF CLICK ON "ABOUT"
 
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  }
 
 
   //------------------------------------------

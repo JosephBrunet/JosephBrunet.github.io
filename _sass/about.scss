@@ -5,13 +5,10 @@
 	margin-bottom: 10px;
 }
 
-#presentation h1 {
-	margin: 0 0 1.125rem 0;
-	padding: 0;
-	line-height: 1.26;
-	font-size: 3.24732rem;
-}
 
+#presentation {
+	  border-top: 0px;
+}
 
 #presentation .left-part {
 	flex: 1;
@@ -77,6 +74,18 @@
 	color: #333;
 	margin-bottom: 0;
 }
+
+
+.text_sup {
+	margin-top: 1.125rem;
+	font-size: 1rem;
+	line-height: 1.875;
+	font-weight: 400;
+	color: #333;
+	margin-bottom: 50px;
+}
+
+
 
 
 

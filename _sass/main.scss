@@ -32,6 +32,18 @@ body {
 
 h1 {
   margin: 0;
+	margin: 0 0 1.125rem 0;
+	padding: 0;
+	line-height: 1.26;
+	font-size: 3.24732rem;
+}
+
+h3 {
+	margin: 0 0 1rem 0;
+	padding: 0;
+	line-height: 1.26;
+	font-size: 1.60181rem;
+	color: #6b8387;
 }
 
 p {
@@ -43,130 +55,46 @@ p {
 	margin-bottom: 0;
 	font-size: 1rem;
 }
-p a {
-	color: #252525;
-	text-decoration: underline;
+
+
+body a {
+	color: inherit;
+	text-decoration: none;
 }
-p a:hover {
-	color: #898989;
+
+body a:hover {
+	color: #6b8387;
 }
 
 
-//-------------------------------------------------------------
-// Research
 
-#research_icon {
-	position: relative;
-}
-.anim_bubble#research_icon span {
-	position: absolute;
-	bottom: 50px;
-	left: 29px;
-	height: 8px;
-	width: 8px;
-	border-radius: 50%;
-	background-color: #333;
-
+body section {
+	margin-bottom: 3rem;
+	border-top: 1px solid #d4dfe2;
+	padding-top: 3rem;
 }
 
-.anim_bubble#research_icon span:nth-child(1) {
-	animation: animate1 1.2s linear infinite;
-}
-.anim_bubble#research_icon span:nth-child(2) {
-	animation: animate2 1s linear infinite;
-}
-.anim_bubble#research_icon span:nth-child(3) {
-	animation: animate3 0.9s linear infinite;
-}
-.anim_bubble#research_icon span:nth-child(4) {
-	animation: animate1 0.7s linear infinite;
-}
-.anim_bubble#research_icon span:nth-child(5) {
-	animation: animate2 0.5s linear infinite;
-}
-@keyframes animate1 {
-	0% {
-		bottom: 100%;
-		margin-left: 0px;
-		margin-right: 0px;
-	}
-	25% {
-		bottom: 124%;
-		margin-left: -6px;
-		margin-right: 0px;
-	}
-	50% {
-		bottom: 136%;
-		margin-left: 6px;
-		margin-right: 0px;
-	}
-	100% {
-		bottom: 160%;
-		margin-left: 0px;
-		margin-right: 0px;
-	}
+body h4 {
+	margin: 0;
+	margin-top: 1.42383rem;
+	padding: 0;
+	line-height: 1.26;
+	font-size: 1.5rem;
 }
 
-@keyframes animate2 {
-	0% {
-		bottom: 100%;
-		margin-left: 0px;
-		margin-right: 0px;
-	}
-	25% {
-		bottom: 124%;
-		margin-left: 6px;
-		margin-right: 0px;
-	}
-	50% {
-		bottom: 136%;
-		margin-left: -6px;
-		margin-right: 0px;
-	}
-	100% {
-		bottom: 160%;
-		margin-left: 0px;
-		margin-right: 0px;
-	}
-}
-
-@keyframes animate3 {
-	0% {
-		bottom: 100%;
-		margin-left: 0px;
-		margin-right: 0px;
-	}
-	25% {
-		bottom: 124%;
-		margin-left: -8px;
-		margin-right: 0px;
-	}
-	50% {
-		bottom: 136%;
-		margin-left: 3px;
-		margin-right: 0px;
-	}
-	100% {
-		bottom: 160%;
-		margin-left: 0px;
-		margin-right: 0px;
-	}
-}
-
-//-------------------------------------------------------------
-//Publication
-
-
-#publication h1 img {
-    height: 1em;
-    width: auto;
+body li {
+	padding: 0.7rem 0;
 }
 
 
 
 
 //-------------------------------------------------------------
-//Location
+// ANIMATION
+
+
+//-------------------------------------------------------------
+//CONFERENCES
 
 
 .bounce {

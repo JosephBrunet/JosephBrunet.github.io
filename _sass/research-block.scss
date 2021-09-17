@@ -41,7 +41,11 @@
 
 
 #research_post_content img {
-	margin-bottom: 10px;
 	max-width: 100%;
+}
 
+#research_post_content .legend {
+	font-size: .88889rem;
+	font-weight: 400;
+	font-family: 'IBM Plex Sans Arabic', sans-serif;
 }

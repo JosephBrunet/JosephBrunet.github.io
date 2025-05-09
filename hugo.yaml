@@ -1,0 +1,137 @@
+baseURL: "https://JosephBrunet.github.io/"
+title: "Joseph Brunet"
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+
+
+  
+
+params:
+  env: production
+  title: "Joseph Brunet"
+  description: "Biomedical imaging researcher @ UCL & ESRF"
+  keywords: [HiP-CT, Biomedical Imaging, Cardiac, Tomography]
+  author: "Joseph Brunet"
+  images: ["/assets/images/portrait.png"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+
+  assets:
+    favicon: "/assets/images/favicon/favicon.ico"
+    favicon16x16: "/assets/images/favicon/favicon-16x16.png"
+    favicon32x32: "/assets/images/favicon/favicon-32x32.png"
+    apple_touch_icon: "/assets/images/favicon/apple-touch-icon.png"
+    safari_pinned_tab: "/assets/images/favicon/safari-pinned-tab.svg"
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  profileMode:
+    enabled: false
+    title: "Joseph Brunet"
+    subtitle: "Biomedical Imaging | HiP-CT | Cardiac Research"
+    imageUrl: "/assets/images/portrait.png"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: "Joseph Brunet portrait"
+    buttons:
+      - name: Research
+        url: research
+      - name: Publications
+        url: publications
+
+  homeInfoParams:
+    Title: "Hi, I'm Joseph 👋"
+    Content: >
+      Biomedical researcher at UCL & ESRF using Hierarchical Phase-Contrast Tomography
+      to image entire human organs.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/JosephBrunet"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/joseph-brunet-b86b3b153"
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=7T_yo4UAAAAJ"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  editPost:
+    URL: "https://github.com/JosephBrunet/josephbrunet.github.io/edit/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: research
+      name: Research
+      url: /research/
+      weight: 10
+    - identifier: publications
+      name: Publications
+      url: /publications/
+      weight: 20
+    - identifier: conferences
+      name: Conferences
+      url: /conferences/
+      weight: 30
+    - identifier: teaching
+      name: Teaching
+      url: /teaching/
+      weight: 40
+
+pygmentsUseClasses: true
+
+markup:
+  highlight:
+    noClasses: false
+

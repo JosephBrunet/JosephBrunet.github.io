@@ -6,7 +6,7 @@ showBreadCrumbs: false
 showToc: false
 ---
 
-![portrait](/assets/images/portrait.png)
+ ![alt text](/assets/images/portrait_circle.png)
 
 I am a Post-Doctoral Research Fellow in biomedical imaging at [University College London](https://www.ucl.ac.uk/), based at the [European Synchrotron Radiation Facility (ESRF)](https://www.esrf.fr/). I work with **HiP-CT**, a novel X-ray tomography technique for multi-resolution imaging of intact human organs.
 

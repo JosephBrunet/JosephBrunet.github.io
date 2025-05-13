@@ -1,13 +1,21 @@
+import os
 from scholarly import scholarly
 
+# === CONFIG ===
+bib_output = "publications.bib"
+markdown_dir = "content/publications"
+
+# === GET EXACT MATCH ===
 def get_exact_author(full_name):
     search_query = scholarly.search_author(full_name)
     for author in search_query:
+        print(author)
         if author.get("name", "").lower() == full_name.lower():
             return scholarly.fill(author)
     return None
 
-def save_publications_to_bibtex(author_data, output_file="publications.bib"):
+# === SAVE TO BIB FILE ===
+def save_publications_to_bibtex(author_data, output_file=bib_output):
     with open(output_file, "w", encoding="utf-8") as bibfile:
         for i, pub in enumerate(author_data['publications']):
             pub_filled = scholarly.fill(pub)
@@ -30,6 +38,36 @@ def save_publications_to_bibtex(author_data, output_file="publications.bib"):
 
     print(f"\n✅ Saved {len(author_data['publications'])} publications to '{output_file}'")
 
+# === CONVERT TO MARKDOWN ===
+def save_publications_to_markdown(author_data, out_dir=markdown_dir):
+    os.makedirs(out_dir, exist_ok=True)
+
+    for i, pub in enumerate(author_data['publications']):
+        pub_filled = scholarly.fill(pub)
+        bib = pub_filled.get('bib', {})
+
+        title = bib.get('title', 'Untitled').replace('"', "'")
+        authors = bib.get('author', 'Unknown').replace('\n', ' ')
+        year = bib.get('pub_year', 'n.d.')
+        journal = bib.get('journal', bib.get('publisher', 'Unknown'))
+        citation = pub_filled.get('num_citations', 0)
+
+        filename = os.path.join(out_dir, f"pub{i+1}.md")
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(f"""---
+title: "{title}"
+authors: "{authors}"
+date: {year}-01-01
+journal: "{journal}"
+citations: {citation}
+---
+
+Published in *{journal}*, {year}.  
+Citations: {citation}
+""")
+    print(f"📄 Converted {len(author_data['publications'])} publications to Markdown in '{out_dir}/'")
+
+# === PRINT INFO ===
 def print_author_info(author_data):
     print(f"\n👤 Name: {author_data['name']}")
     print(f"🏢 Affiliation: {author_data.get('affiliation', 'N/A')}")
@@ -49,10 +87,11 @@ def print_author_info(author_data):
     print(f"\n🧮 Total Citations (recalculated): {total_citations}")
 
 # === MAIN ===
-
-author = get_exact_author("Joseph Brunet")
-if author:
-    print_author_info(author)
-    save_publications_to_bibtex(author)
-else:
-    print("❌ Author not found.")
+if __name__ == "__main__":
+    author = get_exact_author("Joseph Brunet")
+    if author:
+        print_author_info(author)
+        save_publications_to_bibtex(author)
+        save_publications_to_markdown(author)
+    else:
+        print("❌ Author not found.")

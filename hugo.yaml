@@ -1,6 +1,8 @@
-baseURL: "https://JosephBrunet.github.io/"
+baseURL: "https://josephbrunet.github.io/"
 title: "Joseph Brunet"
-theme: ["PaperMod"]
+pagination:
+  pagerSize: 5
+theme: PaperMod
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -11,17 +13,13 @@ minify:
   disableXML: true
   minifyOutput: true
 
-
-
-  
-
 params:
   env: production
   title: "Joseph Brunet"
   description: "Biomedical imaging researcher @ UCL & ESRF"
   keywords: [HiP-CT, Biomedical Imaging, Cardiac, Tomography]
   author: "Joseph Brunet"
-  images: ["/assets/images/portrait.png"]
+  images: ["/assets/images/portrait_circle.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
@@ -50,17 +48,17 @@ params:
     safari_pinned_tab: "/assets/images/favicon/safari-pinned-tab.svg"
 
   label:
-    text: "Home"
+    text: "Joseph Brunet"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   profileMode:
-    enabled: false
+    enabled: true
     title: "Joseph Brunet"
     subtitle: "Biomedical Imaging | HiP-CT | Cardiac Research"
-    imageUrl: "/assets/images/portrait.png"
-    imageWidth: 120
-    imageHeight: 120
+    imageUrl: "/assets/images/portrait_circle.png"
+    imageWidth: 400
+    imageHeight: 400
     imageTitle: "Joseph Brunet portrait"
     buttons:
       - name: Research
@@ -68,27 +66,51 @@ params:
       - name: Publications
         url: publications
 
+# params:
+#   profileMode:
+#     enabled: true
+#     title: "<Title>" # optional default will be site title
+#     subtitle: "This is subtitle"
+#     imageUrl: "<image link>" # optional
+#     imageTitle: "<title of image as alt>" # optional
+#     imageWidth: 120 # custom size
+#     imageHeight: 120 # custom size
+#     buttons:
+#       - name: Archive
+#         url: "/archive"
+#       - name: Github
+#         url: "https://github.com/"
+
+#   socialIcons: # optional
+#     - name: "<platform>"
+#       url: "<link>"
+#     - name: "<platform 2>"
+#       url: "<link2>"
+
+
+
   homeInfoParams:
-    Title: "Hi, I'm Joseph 👋"
+    Title: ""
     Content: >
-      Biomedical researcher at UCL & ESRF using Hierarchical Phase-Contrast Tomography
-      to image entire human organs.
+      
 
   socialIcons:
     - name: github
       url: "https://github.com/JosephBrunet"
     - name: linkedin
       url: "https://www.linkedin.com/in/joseph-brunet-b86b3b153"
+    - name: X
+      url: "https://x.com/Joseph__Brunet"
     - name: googlescholar
       url: "https://scholar.google.com/citations?user=7T_yo4UAAAAJ"
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "XYZabc123456"
     bing:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "XYZabc123456"
     yandex:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "XYZabc123456"
 
   cover:
     hidden: true
@@ -135,3 +157,10 @@ markup:
   highlight:
     noClasses: false
 
+
+module:
+  mounts:
+    - source: 'assets'
+      target: 'assets'
+    - source: 'static'
+      target: 'assets'

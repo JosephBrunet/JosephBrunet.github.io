@@ -23,19 +23,23 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
+  hideTags: true
+  showCopyright: false
+  hideFooter: true
 
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
-  hidemeta: false
+  hidemeta: true
   hideSummary: false
   showtoc: true
   tocopen: true
@@ -59,33 +63,15 @@ params:
     imageUrl: "/assets/images/portrait_circle.png"
     imageWidth: 400
     imageHeight: 400
-    imageTitle: "Joseph Brunet portrait"
+    imageTitle: "Joseph Brunet"
     buttons:
+      - name: About
+        url: about
       - name: Research
         url: research
       - name: Publications
         url: publications
 
-# params:
-#   profileMode:
-#     enabled: true
-#     title: "<Title>" # optional default will be site title
-#     subtitle: "This is subtitle"
-#     imageUrl: "<image link>" # optional
-#     imageTitle: "<title of image as alt>" # optional
-#     imageWidth: 120 # custom size
-#     imageHeight: 120 # custom size
-#     buttons:
-#       - name: Archive
-#         url: "/archive"
-#       - name: Github
-#         url: "https://github.com/"
-
-#   socialIcons: # optional
-#     - name: "<platform>"
-#       url: "<link>"
-#     - name: "<platform 2>"
-#       url: "<link2>"
 
 
 
@@ -112,50 +98,43 @@ params:
     yandex:
       SiteVerificationTag: "XYZabc123456"
 
-  cover:
-    hidden: true
-    hiddenInList: true
-    hiddenInSingle: true
-
-  editPost:
-    URL: "https://github.com/JosephBrunet/josephbrunet.github.io/edit/main/content"
-    Text: "Suggest Changes"
-    appendFilePath: true
-
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    limit: 10
-    keys: ["title", "permalink", "summary", "content"]
+  # cover:
+  #   hidden: true
+  #   hiddenInList: true
+  #   hiddenInSingle: true
 
 menu:
   main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
     - identifier: research
       name: Research
       url: /research/
-      weight: 10
+      weight: 20
     - identifier: publications
       name: Publications
       url: /publications/
-      weight: 20
-    - identifier: conferences
-      name: Conferences
-      url: /conferences/
       weight: 30
-    - identifier: teaching
-      name: Teaching
-      url: /teaching/
+    - identifier: cv
+      name: Curriculum
+      url: assets/files/CV.pdf
       weight: 40
 
 pygmentsUseClasses: true
 
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
   highlight:
     noClasses: false
+  anchors:
+    enable: false
 
 
 module:

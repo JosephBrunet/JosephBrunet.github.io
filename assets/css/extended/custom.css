@@ -1,0 +1,323 @@
+/* Completely remove underlines from DOI links
+a[href*="doi.org"] {
+  text-decoration: none !important;
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  color: #3ea6ff; /* or any preferred color */
+/* } */
+
+/* Optional: Change appearance on hover */
+/* a[href*="doi.org"]:hover {
+  color: #1a73e8;
+  text-decoration: none !important;
+} */
+ */
+
+
+
+
+/* Completely remove underlines from DOI links */
+main a {
+  box-shadow: none !important;
+  text-decoration: none !important;
+  /* color: #3ea6ff; or any preferred color */
+  border: 0;
+  /* border-bottom: 1px solid #ccc; */
+}
+
+a.anchor {
+  display: none !important;
+}
+
+
+/* .entry-cover img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 10px;
+} */
+
+
+
+
+
+/* MENU */
+
+a {
+  font-weight: 600;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+ a:hover {
+  color:  #1a73e8;
+  text-shadow: 0 0 1px currentColor; 
+}
+
+
+
+
+a {
+  font-weight: 600;
+}
+
+
+
+
+
+/* PROFILE */
+
+.social-icons a {
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-icons a:hover {
+  transform: translateY(-3px) scale(1.1);
+}
+
+
+.profile img {
+  transition: transform 0.3s ease;
+}
+
+.profile img:hover {
+  transform: scale(1.025);
+}
+
+
+
+/* ENTRY-POST */
+
+
+.post-entry {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-entry:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+
+
+
+
+/* POST */
+
+/* Container holding the tags */
+.categories {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Tag style */
+.option-tag {
+  background-color: #f5e8e1;
+  color: #2a2a2a;
+  border-radius: 4px;
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.option-tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon inside tag */
+.option-tag i {
+  font-size: 1.1rem;
+}
+
+
+
+
+
+.post-description {
+  font-weight: 600;
+  color: var(--content-secondary);
+}
+
+
+
+
+.post-single .entry-cover {
+  max-width: 50% !important;
+  display: None;
+}
+
+article img:not(:first-of-type) {
+  max-width: 70%;     /* adjust as needed */
+  display: block;
+  margin: 1rem auto;  /* center and space */
+}
+
+
+.full-img-block img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+.small-img-block img {
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin: 2rem auto 0.5rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.img-legend {
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--theme-muted);
+  margin-top: 0.4rem;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+/* Increase the default width of the page. */
+.main {
+  max-width: calc(var(--main-width) + var(--gap) * 8);
+}
+/* Increase less for the home page.
+This will eventually replace the following two rules. But for now
+the browser support for :has is not widespread yet.
+.main:has(.first-entry) {
+  max-width: calc(var(--main-width) + var(--gap) * 10);
+}
+*/
+.post-entry {
+  max-width: calc(var(--main-width) + var(--gap) * 10);
+  margin-left: auto;
+  margin-right: auto;
+}
+.first-entry {
+  max-width: calc(var(--main-width) + var(--gap) * 10);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Increase the width of images placed in home info. */
+.home-info .entry-content img {
+  width: 100%;
+  max-width: fit-content;
+  border-radius: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+/* Increase the font of summary text. */
+.post-entry .entry-content {
+  font-size: 18px;
+}
+
+/* Set a limit on the width of post images and align them center. */
+.post-single .entry-cover {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-content img {
+  margin: auto;
+}
+.post-content figcaption {
+text-align: center;
+}
+
+
+.post-content li {
+  margin-bottom: 1.5em !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* Styled link class for text content */
+.text-link {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.4s ease 0.05s;
+  z-index: 0;
+  box-shadow: none !important;
+  border: 0;
+  border-bottom: 4px solid #ff9603;
+
+}
+
+.text-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff9603;
+  z-index: -1;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.3s ease;
+}
+
+.text-link:hover::after {
+  transform: scaleY(1);
+}
+
+/* Optional: in dark mode, change text to black once highlight is full */
+@media (prefers-color-scheme: dark) {
+  .text-link:hover {
+    color: black;
+  }
+}
+
+
+
+
+
+
+
+.post-entry .entry-content {
+  max-height: 7em; /* Adjust as needed */
+  overflow: hidden;
+  position: relative;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 6; /* number of visible lines */
+  -webkit-box-orient: vertical;
+  mask-image: linear-gradient(180deg, black 60%, transparent);
+  -webkit-mask-image: linear-gradient(180deg, black 60%, transparent);
+}
+
+
+
+
+

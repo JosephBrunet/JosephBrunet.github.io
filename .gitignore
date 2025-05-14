@@ -1,1 +1,33 @@
-_site/
+# Hugo build output
+/public/
+/resources/_gen/
+/hugo_stats.json
+
+# Node.js / package managers (if used)
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup or temp files
+*.swp
+*.bak
+*.tmp
+*.log
+
+# IDE/project files
+.vscode/
+.idea/
+*.code-workspace
+
+# Files for local testing or drafts
+drafts/
+*.local
+
+# Prevent secrets/configs
+.env
+.env.*

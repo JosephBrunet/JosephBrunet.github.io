@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://josephbrunet.github.io/sitemap.xml

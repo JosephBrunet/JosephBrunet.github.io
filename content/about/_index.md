@@ -19,7 +19,9 @@ My current research focuses on biomedical imaging, leading the development and a
 
 With a strong personal interest in **cardiovascular biology**, my work bridges **biomechanics**, **imaging**, and **computational analysis** to advance our understanding of human organ structure and disease.
 
-<a href="/assets/files/CV.pdf" class="text-link">📄 Curriculum Vitae</a>
+<a href="/assets/files/CV.pdf" class="cv-download-button" download>
+  <i class="fas fa-download"></i> Download CV
+</a>
 
 </div>
 </div>

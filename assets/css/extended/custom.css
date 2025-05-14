@@ -319,5 +319,28 @@ text-align: center;
 
 
 
+.cv-download-button {
+  display: inline-block;
+  padding: 0.4rem 1rem; /* Smaller padding for a smaller button */
+  background-color: transparent;
+  color: var(--primary); /* Replace with your desired color like #1a73e8 if not using variables */
+  border: 2px solid var(--primary);
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.9rem; /* Slightly smaller text */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cv-download-button:hover {
+  background-color: var(--primary);
+  color: white;
+  /* Removed transform */
+}
+
+.cv-download-button i {
+  margin-right: 0.5rem;
+}
+
 
 

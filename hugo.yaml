@@ -6,7 +6,9 @@ theme: PaperMod
 
 publishDir: "docs"
 
-
+caches:
+  images:
+    dir: :cacheDir/images
 
 enableRobotsTXT: true
 buildDrafts: false

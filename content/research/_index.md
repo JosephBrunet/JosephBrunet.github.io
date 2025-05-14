@@ -4,4 +4,3 @@ description: "Welcome to my research section. Here you'll find summaries of key 
 ---
 
 <!-- ![alt text](/assets/images/icons/book-gif.gif) -->
-

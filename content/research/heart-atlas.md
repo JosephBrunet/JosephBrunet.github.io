@@ -21,7 +21,7 @@ During my postdoc at the <a href="https://www.esrf.eu/" target="_blank" class="t
 
 <div>
   <img src="/assets/images/heart-atlas/Cande_ESRF.jpg" alt="Joseph Brunet and Hector Dejea positioning a heart during an experiment">
-  <p class="img-legend">Joseph Brunet (left) and Hector Dejea (right) positioning a heart during an experiment (Image credit: ESRF / Stef Candé)</p>
+  <p class="img-legend">Joseph Brunet (left) and  <a href="https://scholar.google.es/citations?user=E5kPKRwAAAAJ&hl=ca" target="_blank" class="text-link">Hector Dejea</a> (right) positioning a heart during an experiment (Image credit: ESRF / Stef Candé)</p>
 </div>
 
 HiP-CT allows for high-spatial-resolution, three-dimensional imaging of the heart, revealing histologic-level detail without the need for invasive sectioning or exogenous contrast agents. The study involved imaging two hearts: one from a healthy 63-year-old male and another from an 87-year-old female with a history of cardiovascular diseases.

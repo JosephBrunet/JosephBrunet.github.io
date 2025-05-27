@@ -5,15 +5,12 @@ showToc: false
 
 <div class="cover-sidebyside">
 
-<img src="/assets/images/heart-atlas/Cande_ESRF.jpg" alt="Joseph Brunet portrait" class="cover-sideimg">
-
 <div class="cover-sideimg">
   <img src="/assets/images/heart-atlas/Cande_ESRF.jpg" alt="Joseph Brunet and Hector Dejea positioning a heart at ESRF">
   <p class="img-legend">
     Joseph Brunet (left) and <a href="https://scholar.google.es/citations?user=E5kPKRwAAAAJ&hl=ca" target="_blank" class="text-link">Hector Dejea</a> (right) positioning a heart during an experiment. Image credit: ESRF / Stef Candé.
   </p>
 </div>
-
 
 <br>
 

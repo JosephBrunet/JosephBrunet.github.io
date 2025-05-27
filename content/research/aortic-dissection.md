@@ -15,7 +15,7 @@ showToc: false
 
 <br>
 
-During my PhD at <a href="https://www.mines-stetienne.fr/" class="text-link">École des Mines de Saint-Étienne</a>, I worked on vascular biomechanics as part of the <a href="https://cordis.europa.eu/project/id/638804" class="text-link">AArteMIS project</a>. My research focused on identifying and quantifying the mechanisms behind vascular failure, particularly **aortic dissection**, to improve diagnostic and therapeutic strategies.
+During my PhD at <a href="https://www.mines-stetienne.fr/" target="_blank" class="text-link">École des Mines de Saint-Étienne</a>, I worked on vascular biomechanics as part of the <a href="https://cordis.europa.eu/project/id/638804" target="_blank" class="text-link">AArteMIS project</a>. My research focused on identifying and quantifying the mechanisms behind vascular failure, particularly **aortic dissection**, to improve diagnostic and therapeutic strategies.
 
 <div class="small-img-block">
   <img src="/assets/images/aortic-dissection/suture.JPG" alt="Suture of rabbit aortic sample">

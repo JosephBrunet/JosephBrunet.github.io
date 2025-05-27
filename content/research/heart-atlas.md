@@ -17,11 +17,11 @@ showToc: false
 
 <br>
 
-During my postdoc at the <a href="https://www.esrf.eu/" class="text-link">European Synchrotron Radiation Facility (ESRF)</a>, I used **Hierarchical Phase-Contrast Tomography (HiP-CT)** to depict the macro- to microanatomy of structurally normal and abnormal adult human hearts ex vivo.  
+During my postdoc at the <a href="https://www.esrf.eu/" target="_blank" class="text-link">European Synchrotron Radiation Facility (ESRF)</a>, I used **Hierarchical Phase-Contrast Tomography (HiP-CT)** to depict the macro- to microanatomy of structurally normal and abnormal adult human hearts ex vivo.  
 
 <div>
   <img src="/assets/images/heart-atlas/Cande_ESRF.jpg" alt="Joseph Brunet and Hector Dejea positioning a heart during an experiment">
-  <p class="img-legend">Joseph Brunet (left) and Hector Dejea (right) positioning a heart during an experiment</p>
+  <p class="img-legend">Joseph Brunet (left) and Hector Dejea (right) positioning a heart during an experiment (Image credit: ESRF / Stef Candé)</p>
 </div>
 
 HiP-CT allows for high-spatial-resolution, three-dimensional imaging of the heart, revealing histologic-level detail without the need for invasive sectioning or exogenous contrast agents. The study involved imaging two hearts: one from a healthy 63-year-old male and another from an 87-year-old female with a history of cardiovascular diseases.
@@ -52,7 +52,7 @@ This study demonstrates the potential of HiP-CT for detailed, non-destructive im
   <p class="img-legend">Orientation of myocyte aggregates in the control heart</p>
 </div>
 
-📄 For full details, see the <a href="https://doi.org/10.1148/radiol.232731" class="text-link">published paper</a> in *Radiology* (2024).
+📄 For full details, see the <a href="https://doi.org/10.1148/radiol.232731" target="_blank" class="text-link">published paper</a> in *Radiology* (2024).
 
 ---
 

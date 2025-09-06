@@ -6,6 +6,8 @@ theme: PaperMod
 
 publishDir: "public"
 
+googleAnalytics: G-PK50R2JY30
+
 caches:
   images:
     dir: :cacheDir/images

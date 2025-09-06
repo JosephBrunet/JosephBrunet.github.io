@@ -98,13 +98,13 @@ params:
     - name: googlescholar
       url: "https://scholar.google.com/citations?user=7T_yo4UAAAAJ"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc123456"
-    bing:
-      SiteVerificationTag: "XYZabc123456"
-    yandex:
-      SiteVerificationTag: "XYZabc123456"
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc123456"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc123456"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc123456"
 
   # cover:
   #   hidden: true

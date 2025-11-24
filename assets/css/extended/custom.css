@@ -254,10 +254,35 @@ text-align: center;
 
 
 .post-content li {
-  margin-bottom: 1.5em !important;
+  margin-bottom: 1em !important;
 }
 
 
+.pub-list li {
+  list-style: none;
+  position: relative;
+  padding-left: 1.4rem;   /* space between square and text */
+  margin-bottom: 0.7rem;
+}
+
+.pub-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55rem;           /* vertical alignment */
+  width: 8px;             /* square size */
+  height: 8px;
+  background: currentColor;    /* your accent orange */
+  border-radius: 2px;     /* optional: slightly rounded */
+}
+
+
+/* Hover effect stays the same */
+.pub-list li:hover {
+  background: rgba(0,0,0,0.05);
+  transform: translateX(3px);
+  transition: 0.2s ease;
+}
 
 
 

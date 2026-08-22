@@ -58,4 +58,4 @@ pip install cardiotensor
 
 ### Acknowledgement
 📄 For full details, see the <a href="
-https://doi.org/10.48550/arXiv.2508.07476" target="_blank" class="text-link">preprint paper</a> (2025).
+https://doi.org/10.21105/joss.09720" target="_blank" class="text-link">peer-reviewed paper</a> in the *Journal of Open Source Software* (2026).

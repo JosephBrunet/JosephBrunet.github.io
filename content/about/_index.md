@@ -1,36 +1,40 @@
 ---
-title: "About me"
+title: "About"
+description: "UCL Research Fellow specialising in multiscale synchrotron imaging, cardiac microstructure and quantitative analysis of intact human organs."
 showToc: false
 ---
 
 <div class="cover-sidebyside">
-
 <div class="cover-sideimg">
-  <img src="/assets/images/heart-atlas/Cande_ESRF.jpg" alt="Joseph Brunet and Hector Dejea positioning a heart at ESRF">
-  <p class="img-legend">
-    Joseph Brunet (left) and <a href="https://scholar.google.es/citations?user=E5kPKRwAAAAJ&hl=ca" target="_blank" class="text-link">Hector Dejea</a> (right) positioning a heart during an experiment. Image credit: ESRF / Stef Candé.
-  </p>
+  <img src="/assets/images/heart-atlas/Cande_ESRF.jpg" alt="Joseph Brunet and Hector Dejea positioning a human heart for HiP-CT imaging at the ESRF">
+  <p class="img-legend">Preparing a human heart for HiP-CT imaging at the ESRF with Hector Dejea. Image: ESRF / Stef Candé.</p>
 </div>
-
-<br>
-
 <div class="cover-sidetext">
 
-Hi, I’m **Dr. Joseph Brunet**, a Senior Postdoctoral Researcher at <a href="https://www.ucl.ac.uk" target="_blank" class="text-link">University College London</a>, based at the <a href="https://www.esrf.fr" target="_blank" class="text-link">European Synchrotron Radiation Facility (ESRF)</a> in Grenoble.
+## Revealing human anatomy across scales
 
-I completed my PhD in Biomechanics at <a href="https://www.mines-stetienne.fr/" target="_blank" class="text-link">École des Mines de Saint-Étienne</a>, where I investigated the mechanisms of aortic dissection using in situ mechanical testing and X-ray tomography.
+I am **Dr Joseph Brunet**, a Research Fellow at <a href="https://www.ucl.ac.uk/" class="text-link">University College London</a>, based at the <a href="https://www.esrf.fr/" class="text-link">European Synchrotron Radiation Facility</a> in Grenoble. I specialise in non-destructive, multiscale imaging of intact human organs using **Hierarchical Phase-Contrast Tomography (HiP-CT)**.
 
-My current research focuses on biomedical imaging, leading the development and application of **Hierarchical Phase-Contrast Computed Tomography (HiP-CT)** — a groundbreaking technique for imaging whole human organs down to cellular resolution.
+My research sits at the intersection of **biomedical imaging, cardiovascular science, biomechanics and 3D image analysis**. I am particularly interested in how the architecture of the human heart—from myocardial organisation and vascular networks to the conduction system—relates to function and disease.
 
-With a strong personal interest in **cardiovascular biology**, my work bridges **biomechanics**, **imaging**, and **computational analysis** to advance our understanding of human organ structure and disease.
-
-<a href="/assets/files/CV.pdf" class="cv-download-button" download>
-  <i class="fas fa-download"></i> Download CV
-</a>
+<a class="cv-download-button" href="/assets/files/CV.pdf" download><i class="fas fa-download"></i> Download CV</a>
 
 </div>
 </div>
 
----
+## Research
 
-*I'm a curious mind, always looking for new experiences and problems to solve. This has led me to explore different fields like mechanics, biology or imaging, and combined them to open perspectives on the development of personalised diagnostic tools for patients.*
+I lead UCL’s HiP-CT research activities at the ESRF and have coordinated more than **45 experiments on intact human organs**. My work spans the full imaging workflow: sample preparation, multiscale synchrotron acquisition, reconstruction and quality control of terabyte-scale volumes, and quantitative analysis.
+
+To extract meaningful measurements from these datasets, I develop methods for **segmentation, vascular-network characterisation, structure-tensor analysis, tractography and digital volume correlation**. I created <a href="https://github.com/JosephBrunet/cardiotensor" class="text-link">Cardiotensor</a>, an open-source Python library for quantifying myocardial organisation in large 3D cardiac images, published in the *Journal of Open Source Software* in 2026.
+
+My current programme aims to connect micro-anatomy with clinical imaging, biomechanics and molecular information.
+
+## Expertise
+
+- Biomedical and synchrotron X-ray imaging
+- HiP-CT experimental design and large-volume reconstruction
+- Cardiac microstructure, vascular networks and conduction anatomy
+- Quantitative 3D image analysis, tractography and segmentation
+- Biomechanical testing and computational modelling
+- Open research infrastructure and international scientific coordination

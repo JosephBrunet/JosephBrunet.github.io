@@ -24,8 +24,8 @@ minify:
 params:
   env: production
   title: "Joseph Brunet"
-  description: "Biomedical imaging researcher @ UCL & ESRF"
-  keywords: [HiP-CT, Biomedical Imaging, Cardiac, Tomography]
+  description: "UCL Research Fellow developing multiscale synchrotron imaging and quantitative analysis of intact human organs at the ESRF."
+  keywords: [HiP-CT, Biomedical Imaging, Cardiac Architecture, Synchrotron Tomography, Human Organ Atlas, Biomechanics]
   author: "Joseph Brunet"
   images: ["/assets/images/portrait_circle.png"]
   DateFormat: "January 2, 2006"
@@ -61,24 +61,22 @@ params:
 
   label:
     text: "Joseph Brunet"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
 
   profileMode:
     enabled: true
     title: "Joseph Brunet"
-    subtitle: "Biomedical Imaging | HiP-CT | Cardiac Research"
+    subtitle: "UCL Research Fellow · Biomedical Imaging<br><span class=\"profile-tagline\">Revealing the architecture of intact human organs with HiP-CT.</span>"
     imageUrl: "/assets/images/portrait_circle.png"
-    imageWidth: 400
-    imageHeight: 400
+    imageWidth: 310
+    imageHeight: 310
     imageTitle: "Joseph Brunet"
     buttons:
-      - name: About
-        url: about
       - name: Research
         url: research
       - name: Publications
         url: publications
+      - name: Download CV
+        url: /assets/files/CV.pdf
 
 
 
@@ -89,14 +87,24 @@ params:
       
 
   socialIcons:
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=7T_yo4UAAAAJ&hl=en"
+    - name: orcid
+      url: "https://orcid.org/0000-0002-8424-9510"
     - name: github
       url: "https://github.com/JosephBrunet"
     - name: linkedin
       url: "https://www.linkedin.com/in/joseph-brunet-b86b3b153"
-    - name: X
-      url: "https://x.com/Joseph__Brunet"
-    - name: googlescholar
-      url: "https://scholar.google.com/citations?user=7T_yo4UAAAAJ"
+    - name: email
+      url: "mailto:j.brunet@ucl.ac.uk"
+
+  schema:
+    publisherType: Person
+    sameAs:
+      - "https://scholar.google.com/citations?user=7T_yo4UAAAAJ&hl=en"
+      - "https://orcid.org/0000-0002-8424-9510"
+      - "https://github.com/JosephBrunet"
+      - "https://www.linkedin.com/in/joseph-brunet-b86b3b153"
 
   # analytics:
   #   google:
@@ -125,10 +133,6 @@ menu:
       name: Publications
       url: /publications/
       weight: 30
-    - identifier: cv
-      name: Curriculum
-      url: assets/files/CV.pdf
-      weight: 40
 
 pygmentsUseClasses: true
 

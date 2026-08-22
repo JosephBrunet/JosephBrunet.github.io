@@ -374,3 +374,241 @@ text-align: center;
 
 
 
+
+/* Minimal homepage refinement */
+.profile-tagline {
+  display: inline-block;
+  max-width: 520px;
+  margin-top: 0.65rem;
+  color: var(--secondary);
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+
+
+.profile .buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 0.5rem;
+  width: auto;
+}
+
+.profile .buttons .button {
+  flex: none;
+  width: auto;
+  min-width: 0;
+  margin: 0;
+}
+
+.profile .buttons .button-inner {
+  padding-inline: 0.6rem;
+  white-space: nowrap;
+}
+
+
+/* Readable publication archive */
+.publications-page {
+  max-width: 850px;
+  margin-inline: auto;
+}
+
+.publication-introduction {
+  margin-bottom: 2.5rem;
+  color: var(--secondary);
+}
+
+.selected-publications {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.selected-publications > h2,
+.all-publications > h2 {
+  grid-column: 1 / -1;
+  margin-bottom: 0.4rem;
+}
+
+.selected-publication {
+  padding: 1.4rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--entry);
+}
+
+.selected-publication h3 {
+  margin: 0.55rem 0 0.75rem;
+  font-size: 1.12rem;
+  line-height: 1.35;
+}
+
+.selected-publication > p:not(.publication-meta) {
+  margin: 0 0 1rem;
+  color: var(--secondary);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.publication-type {
+  display: inline-block;
+  color: #c66d00;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.dark .publication-type {
+  color: #ffad3b;
+}
+
+.publication-meta {
+  margin: 0;
+  color: var(--secondary);
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+.publication-meta a,
+.publication-links a {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1rem;
+  margin-top: 0.9rem;
+  font-size: 0.82rem;
+}
+
+.publication-years {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 1rem 0 2.2rem;
+}
+
+.publication-years a {
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.78rem;
+}
+
+.publication-years a:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  text-shadow: none;
+}
+
+.publication-year {
+  margin: 0 0 1rem;
+  scroll-margin-top: 5rem;
+}
+
+.publication-year.current-year > h3,
+.publication-year > summary {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.publication-year.current-year > h3 {
+  margin: 0 0 1rem;
+}
+
+.publication-year.current-year > h3 span,
+.publication-year > summary small {
+  color: var(--secondary);
+  font-family: inherit;
+  font-size: 0.76rem;
+  font-weight: 400;
+}
+
+.publication-year > summary {
+  cursor: pointer;
+  font-size: 1.35rem;
+  font-weight: 700;
+  list-style-position: inside;
+}
+
+.publication-year > summary:hover {
+  color: var(--primary);
+}
+
+.publication-year-content {
+  padding-top: 1rem;
+}
+
+.publication-entry {
+  position: relative;
+  margin-bottom: 0.85rem;
+  padding: 1.15rem 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: var(--entry);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.publication-entry:hover {
+  border-color: var(--secondary);
+  transform: translateY(-1px);
+}
+
+.publication-entry h4 {
+  margin: 0.4rem 0 0.55rem;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.publication-authors {
+  margin: 0 0 0.45rem;
+  color: var(--secondary);
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+  .selected-publications {
+    grid-template-columns: 1fr;
+  }
+
+  .publication-entry,
+  .selected-publication {
+    padding: 1rem;
+  }
+}
+
+.publication-back-to-top {
+  display: block;
+  width: fit-content;
+  margin: 2.5rem 0 0 auto;
+  padding: 0.5rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--secondary);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.publication-back-to-top:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  text-shadow: none;
+}
+
+.resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 2rem 0;
+}

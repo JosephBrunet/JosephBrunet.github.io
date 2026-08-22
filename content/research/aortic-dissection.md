@@ -32,24 +32,20 @@ To this end, I performed _in situ_ experiments combining mechanical testing and 
 This approach enabled **3D observation of the delamination** during dissection propagation through the vessel wall.
 
 <div class="small-img-block">
-  <img src="/assets/images/aortic-dissection/dissection.gif" alt="Dissection propagation in 2D X-ray">
+  <img src="/assets/images/aortic-dissection/dissection.webp" alt="Dissection propagation in 2D X-ray">
   <p class="img-legend">2D X-ray radiographs of dissection propagation in real time</p>
 </div>
 
 Using tensile tests combined with inverse methods, I quantified both the **elastic** and **failure properties** of the dissected aortas.
 
 <div class="small-img-block">
-  <img src="/assets/images/aortic-dissection/tension.gif" alt="Tensile tests in two directions">
+  <img src="/assets/images/aortic-dissection/tension.webp" alt="Tensile tests in two directions">
   <p class="img-legend">Tensile tests on a porcine aorta in circumferential (left) and axial (right) directions</p>
 </div>
 
 Finally, I used finite element modeling to simulate rupture and study the **fracture modes** using XFEM (eXtended Finite Element Method).
 
 <div class="small-img-block">
-  <img src="/assets/images/aortic-dissection/xfem.gif" alt="XFEM simulation of dissection">
+  <img src="/assets/images/aortic-dissection/xfem.webp" alt="XFEM simulation of dissection">
   <p class="img-legend">Numerical simulation of an aortic dissection using XFEM</p>
 </div>
-
----
-
-© 2022 – Joseph Brunet
